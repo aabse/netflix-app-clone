@@ -1,0 +1,31 @@
+// colors
+$palette: (
+  blue: #db0000,
+  black: #000000,
+  white: #ffffff,
+  gray: #564d4d,
+  brown: #831010,
+);
+
+// font size
+$fs: (
+  900: 9.375rem,
+  800: 6.25rem,
+  700: 3.5rem,
+  600: 2rem,
+  500: 1.75rem,
+  400: 1.125rem,
+  300: 1rem,
+  200: 0.875rem,
+);
+
+// font family
+$font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+$font-family-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, 'Times New Roman', Times, serif;
+$font-family-mono: Menlo, Monaco, 'Courier New', monospace;
+
+$font-family-base: $font-family-system;
+$font-family-alt: $font-family-serif;
